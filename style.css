@@ -1,0 +1,316 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #263238;
+    line-height: 1.7;
+}
+
+/* Header */
+header {
+    background-color: #142D4E;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #D6E4F0;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #8FC5FF;
+}
+
+/* Main */
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* Sections */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #142D4E;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+h3 {
+    color: #1F497D;
+    margin-bottom: 10px;
+}
+
+/* About Section */
+#about figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #142D4E;
+    display: block;
+    margin: 20px auto;
+}
+
+
+#about img:hover {
+    transform: scale(1.08);
+    border-color: #4A90E2;
+    box-shadow: 0 8px 20px rgba(20, 45, 78, 0.3);
+}
+
+figcaption {
+    color: #64748B;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+/* Project Section */
+/* article {
+    background-color: #EAF2F8;
+    padding: 20px;
+    margin: 18px 0;
+    border-left: 5px solid #142D4E;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(20, 45, 78, 0.15);
+}
+
+article a {
+    display: inline-block;
+    color: #1F497D;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Projects Section */
+#pro {
+    margin: 40px 0;
+}
+
+#pro article {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    border: 1px solid #dce5ef;
+    box-shadow: 0 4px 12px rgba(20, 45, 78, 0.10);
+    transition: all 0.3s ease;
+}
+
+/* Project Card Hover */
+#pro article:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(20, 45, 78, 0.18);
+    border-color: #142D4E;
+}
+
+/* Project Heading */
+#pro article h3 {
+    color: #142D4E;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+
+/* Project Description */
+#pro article p {
+    color: #526477;
+    margin-bottom: 12px;
+}
+
+/* GitHub Link */
+#pro article a {
+    display: inline-block;
+    background-color: #142D4E;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+#pro article a:hover {
+    background-color: #1F497D;
+}
+
+/* Skills */
+
+
+ul {
+    margin: 15px 0 35px 30px;
+}
+
+ul li {
+    padding: 5px;
+    color: #263238;
+}
+
+/* Video Section */
+video {
+    display: block;
+    width: 100%;
+    max-width: 550px;
+    margin: 10px auto;
+    border-radius: 10px;
+    border: 3px solid #142D4E;
+}
+
+/* Footer */
+footer {
+    background-color: #142D4E;
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+}
+
+footer h2 {
+    color: white;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #A9D5FF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+ 
+
+/* Contact Form */
+form {
+    max-width: 500px;
+    margin: 25px auto;
+    text-align: left;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 11px;
+    border: 1px solid #AABBCD;
+    border-radius: 6px;
+    outline: none;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 12px;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #1F497D;
+    box-shadow: 0 0 5px rgba(31, 73, 125, 0.3);
+}
+
+/* Button */
+button {
+    background-color: white;
+    color: #142D4E;
+    border: 2px solid white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8FC5FF;
+    border-color: #8FC5FF;
+}
+
+/* Footer Copyright */
+footer div {
+    margin-top: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    main {
+        padding: 20px 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    article {
+        padding: 15px;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+}
